@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/03/2021, 21:58:03
+    Author     : JEFERSON
+*/
+*{
+    text-decoration: none;
+}
+#response{
+    justify-content: flex-start;
+}
+.information{
+    display: flex;
+    flex-direction: column; 
+    width: 350px;
+    height: 100vh;
+    background-color: #EEEEEE;
+    color:#292929;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.title{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+#notations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+#notations .nota{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    font-size: 12px;
+    border-left: 2px solid #2395da;
+    color:#535353;
+    background-color: rgba(52,152,219,0.15);
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.nota i{
+    font-size: 16px;
+    color:#ff0000;
+    cursor: pointer;
+}
+.btn-actions{
+    margin-top: 5px;
+}
+.btn-actions input{
+    color:#fff;
+}

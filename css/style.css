@@ -1,0 +1,149 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.containe{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin:0px;
+    padding:0px;
+}
+.nav{
+    display:flex;
+    flex-direction: column;
+    padding-right: 0px;
+    width: 320px;
+    background-color: #292929;
+}
+.nav a{
+    text-decoration: none;
+    color:#ccc;
+    font-size: 90%;
+}
+.nav a:hover{
+    color: #75ad0a;
+}
+.div-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #535353;
+}
+header{
+    display:flex;
+    width: 100%;
+    height: 20vh;
+    background-color:#fff;
+}
+header .logo{
+    background-color: #292929;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+}
+.logged{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #535353;
+    width: 100%;
+    padding: 10px;
+    color:#ccc;
+    margin-bottom: 10px;
+}
+.logged .name-user{
+    font-size: 12px;
+}
+.logged i{
+    font-size: 20px;
+}
+#response{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #535353;
+}
+#response .login{
+    padding: 10px;
+    box-shadow: 1px 2px 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.login .form-login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1em;
+}
+.form-login .grap{
+    margin-top: 15px;
+    font-size: 15px;
+    color:#535353;
+}
+.form-login .btn{
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.login .rec-password{
+    margin-top:5px;
+    padding: 5px;
+}
+
+.rec-password a{
+    text-decoration: none;
+    font-size: 15px;
+}
+#response .recovery-password{
+    padding: 10px;
+    box-shadow: 1px 2px 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+.recovery-password div{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.recovery-password .btn-recovery input{
+    color:#fff;
+}
+.menu{
+    width: 100%;
+}
+.menu ul,li{
+    list-style: none;
+    color:#ccc;
+}
+.menu ul{
+    padding-left: 1rem;
+    color:#aaa;
+}
+footer{
+    display: flex;
+    background-color: #292929;
+    color: #ccc;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
