@@ -64,12 +64,9 @@ function sendEmail() {
             },
             complete: function () {
                 $("#btn-sendEmail").val("Recuperar");
-                /*setTimeout(function () {
+                setTimeout(function () {
                  $("#msg-recovery").html("");
-                 //$("#msg-recovery").css("display", "none");
                  }, 3000);
-                 * 
-                 */
             }
         });
     } else {
