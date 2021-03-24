@@ -3,6 +3,7 @@
 session_start();
 include_once '../connect/conexao.php';
 require_once '../class/login.php';
+
 //Autenticar usuário
 $email = filter_input(0, 'email', FILTER_VALIDATE_EMAIL);
 $password = filter_input(0, 'password', FILTER_DEFAULT);

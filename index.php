@@ -6,6 +6,7 @@ require_once __DIR__ . '/theme/nav.php';
 require_once __DIR__ . '/theme/page-content/login.php';
 require_once __DIR__ . '/theme/page-content/recovery_password.php';
 require_once __DIR__ . '/theme/footer.php';
+
 $recovery = filter_input(1,'recovery',FILTER_DEFAULT);
 ?>
 <!DOCTYPE html>

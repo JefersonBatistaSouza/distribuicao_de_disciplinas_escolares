@@ -1,0 +1,124 @@
+#response{
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #535353;
+}
+.containe-tae{
+    padding: 10px;
+    box-shadow: 1px 2px 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 15px;
+}
+.title-tae{
+    margin-bottom: 30px;
+}
+.form-tae{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.form-tae .div-input{
+    width: 44%;
+    margin-left: 5px;
+}
+.form-tae .div-input-btn{
+    margin-top: 22px;
+}
+.div-input-btn input{
+    margin-left: 5px;
+    width: 150px;
+    color:#fff;
+}
+.tae-acesso{
+    margin-top: 15px;
+    width: 50%;
+    justify-content: flex-end;
+}
+.accordion-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.PasswordDefinition{
+    width: 50%;
+}
+.searchTae{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-color: #F2F2F2;
+    padding: 15px;
+}
+.searchTae .btn-search{
+    display: flex;
+    justify-content: center;
+}
+.btn-search input{
+    margin-left: 10px;
+    color:#fff;
+}
+
+.div-input-search{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.input-search{
+    width: 100%;
+}
+.data-tae{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.data-tae .data,.btn-actions{
+    display: flex;
+}
+.data-tae .data{
+    width: 60%;
+    justify-content: space-between;
+}
+.data-tae .btn-actions{
+    width: 40%;
+    justify-content: flex-end;
+}
+.btn-actions button{
+    margin-right: 5px;
+}
+.access-permission{
+    width: 100%;
+}
+.accordion{
+    width:100%;
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.form-modal{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.form-modal .input-model{
+    width: 50%;
+    margin:10px;
+}
+#tae-response{
+    width: 100%;
+    height: 65vh;
+    overflow:scroll;
+}
